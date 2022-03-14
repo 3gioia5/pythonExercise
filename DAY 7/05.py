@@ -1,9 +1,8 @@
 # 백준1712
 
 a, b, c = list(map(int, input().split()))
-amount = 0
 
-if amount < 0:
+if b >= c:
     print(-1)
 else:
-    pass
+    print(a // (c - b) + 1)
