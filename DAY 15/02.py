@@ -3,4 +3,4 @@
 
 def insertion_sort(list):
     for i in range(1, len(list)):
-        max_index = i
+        pass
